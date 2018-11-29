@@ -1,0 +1,52 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+#app{
+	margin: 0 auto;
+	width: 450px
+}
+.qian{
+	padding: 2px 10px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	margin-top: 50px;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	font-size: 13px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app" v-bind:title="wei">
+		{{ wei }}
+		<div v-if='show'>
+			我能看得到哦！
+		</div>
+		<ul>
+			<li v-for="i in xun" v-bind:wei="i.zhang">{{i.zhang}}</li>
+		</ul>
+		<span v-on:click="qian" class="qian">点击</span>
+		<input type="text" v-model="wei">
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
